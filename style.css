@@ -1,0 +1,67 @@
+body{
+  font-family: 'segoe ui';
+}
+
+#menu {
+  background-color: rgb(29, 33, 34);
+  width: 30vw;
+  height: 40vw;
+  margin: auto;
+  text-align: center;
+  border-radius: 0.75vw;
+}
+p, h1 {
+  font-size: 2.75vw;
+  font-weight: 600;
+  margin-bottom: 2vw;
+  margin-top: 1vw;
+  color: white;
+}
+p{
+  min-height: 5vw;
+  padding-top: 1vw;
+  margin-bottom: 1vw;
+}
+h1{
+  padding-top: 1%;
+}
+#convertInput {
+  width: 25vw;
+  height: 6vw;
+  font-size: 3vw;
+  background: none;
+  color: white;
+  text-align: right;
+}
+select {
+  margin-top: 5%;
+  width: 12vw;
+  height: 3vw;
+  border: none;
+  font-size: 1.4vw;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+select:hover{
+  background-color: rgb(56, 62, 63);
+}
+button {
+  width: 25vw;
+  height: 7vw;
+  font-size: 5vw;
+  background-color: rgb(56, 62, 63);
+  color: white;
+}
+button:hover{
+  background-color: rgb(50, 50, 50);
+}
+h2{
+  color: white;
+  margin-top: 2vw;
+  margin-bottom: -1vw;
+  font-size: 1vw;
+}
+h3{
+  text-align: center;
+  color: red;
+}
